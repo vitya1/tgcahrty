@@ -1,0 +1,171 @@
+.tg-chart {
+    font-family: 'Helvetica', 'Arial', sans-serif;
+}
+.xpointer-label {
+    box-shadow: 1px 1px 1px #E5E5E5;
+    border: 1px #E5E5E5 solid;
+    border-radius: 8px;
+    background-color: #FFFFFF;
+    color: #000000;
+    padding: 6px;
+    font-size: 14px;
+    margin-left: 20px;
+    position: absolute;
+    z-index: 2;
+    display: none;
+}
+.xpointer-label div {
+    font-weight: 600;
+    font-size: 15px;
+    text-align: center;
+}
+.xpointer-label table {
+    padding-top: 4px;
+    text-align: left;
+    border-spacing: 0px;
+    width: 100%;
+}
+.xpointer-label table thead {
+    font-weight: 700;
+    font-size: 16px;
+    text-align: left;
+}
+.xpointer-label table td {
+    padding-left: 10px;
+}
+.xpointer {
+    display: none;
+    position: absolute;
+    background-color: #DFE6EB;
+    width: 1px;
+    padding: 0 !important;
+    margin: 0 !important;
+    z-index: 1;
+}
+.ypointer {
+    display: none;
+    position: absolute;
+    padding: 2px;
+    margin-top: -5px;
+    margin-left: -5px;
+    border-radius: 10px;
+    top: 150px;
+    left: 150px;
+    z-index: 2;
+}
+.ypointer-inner {
+    height: 6px;
+    width: 6px;
+    border-radius: 4px;
+    background-color: #FFFFFF;
+}
+
+.map {
+    position: absolute;
+    width: 800px;
+    height: 50px;
+    display: table;
+    opacity: 0.7;
+}
+.map-caret-left {
+    display: table-cell;
+    height: 100%;
+    width: 6px;
+    min-width: 5px;
+    background-color: #DDEAF3;
+    cursor:col-resize;
+}
+.map-caret-right {
+    display: table-cell;
+    height: 100%;
+    width: 6px;
+    min-width: 5px;
+    background-color: #DDEAF3;
+    cursor:col-resize;
+}
+.map-caret {
+    display: table-cell;
+    height: 100%;
+    border: #DDEAF3 1px solid;
+    min-width: 10px;
+}
+.map-overflow-left {
+    display: table-cell;
+    width: 60px;
+    height: 100%;
+    background-color: #F5F9FB;
+}
+.map-overflow-right {
+    display: table-cell;
+    width: 100px;
+    height: 100%;
+    background-color: #F5F9FB;
+}
+
+.legends ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.legends li {
+    cursor: default;
+    display: inline-block;
+    border: #E6ECF0 1px solid;
+    border-radius: 24px;
+    padding: 6px 9px 1px 9px;
+    margin-right: 10px;
+    font-size: 15px;
+
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+}
+.legends path {
+    stroke: #FFFFFF;
+}
+.legends circle {
+    transition: fill .3s ease-out;
+}
+.legend-title {
+    padding-top: 4px;
+    margin-left: 8px;
+    float: right;
+}
+
+
+.tg-chart-dark-theme {
+    background-color: #242F3E;
+    color: #E8ECEE;
+}
+.tg-chart-dark-theme .legends li {
+    border: #344658 1px solid;
+}
+.tg-chart-dark-theme .map-caret-left {
+    background-color: #40566B;
+}
+.tg-chart-dark-theme .map-caret-right {
+    background-color: #40566B;
+}
+.tg-chart-dark-theme .map-caret {
+    border: #40566B 1px solid;
+}
+.tg-chart-dark-theme .map-overflow-left {
+    background-color: #1F2A38;
+}
+.tg-chart-dark-theme .map-overflow-right {
+    background-color: #1F2A38;
+}
+.tg-chart-dark-theme .ypointer-inner {
+    background-color: #242F3E;
+}
+.tg-chart-dark-theme .xpointer-label {
+    box-shadow: 1px 1px 1px #202A38;
+    border: 1px #202A38 solid;
+    background-color: #253241;
+    color: #FFFFFF;
+}
+.tg-chart-dark-theme .xpointer {
+    background-color: #3B4A5A;
+}
