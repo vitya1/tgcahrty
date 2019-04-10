@@ -1,0 +1,40 @@
+{
+  "name": "tgcahrty",
+  "version": "1.0.0",
+  "description": "Javascript chart library for tg contest",
+  "main": "lib/index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/core": "^7.4.3",
+    "@babel/preset-env": "^7.4.3",
+    "babel-loader": "^8.0.5",
+    "terser": "^3.17.0",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.3.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vitya1/tgcahrty.git"
+  },
+  "keywords": [
+    "JS",
+    "Javascript",
+    "Chart",
+    "Library",
+    "Telegram",
+    "Contest",
+    "Canvas"
+  ],
+  "author": "Vitya",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vitya1/tgcahrty/issues"
+  },
+  "homepage": "https://github.com/vitya1/tgcahrty#readme"
+}
