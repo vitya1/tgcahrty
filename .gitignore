@@ -1,4 +1,5 @@
 node_modules/
 nothing_interesting/
 dist/
+stage2/
 test.js
