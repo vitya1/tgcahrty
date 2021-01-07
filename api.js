@@ -34,25 +34,3 @@ http.createServer((request, response) => {
 
     });
 }).listen(8081);
-
-/*
-const bittrex = require('node.bittrex.api');
-const express = require('express');
-const app = express();
-const fs = require('fs');
-const multer  = require('multer');
-const readline = require('readline');
-
-
-app.use(express.static('/'));
-
-app.get('/', (req, res) => {
-    res.sendFile('/public/html/index.html');
-});
-
-app.get('/data', (req, res) => {
-    res.sendFile('/public/html/index.html');
-});
-
-server.listen(3001, '127.0.0.1');
-*/
